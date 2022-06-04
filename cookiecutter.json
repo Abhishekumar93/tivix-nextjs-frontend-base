@@ -1,0 +1,6 @@
+{
+  "service_name": "nextjs_frontend",
+  "project_name": "nextjs-app",
+  "use_tailwind": ["True", "False"],
+  "use_storybook": ["True", "False"]
+}
