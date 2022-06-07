@@ -6,9 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
     {% if cookiecutter.use_storybook == "True" %}
-    ,"storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
     {% endif %}
   },
@@ -35,9 +35,9 @@
     "@types/react": "18.0.10",
     "@types/react-dom": "18.0.5",
     "eslint": "8.16.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "12.1.6",
     {% if cookiecutter.use_tailwind == "True" %}
-    ,"autoprefixer": "^10.4.7",
+    "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24",
     {% endif %}
